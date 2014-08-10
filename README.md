@@ -5,4 +5,4 @@ The controller is hosted locally as a webpage, which can then be accessed using 
 
 # Dependencies
 
-Currently only works with Linux with the xte binary installed, I am looking into making it work for Windows currently, possibly utilising system calls to autohotkey.
+Currently only works with Linux with the xte binary installed, I am looking into making it work for Windows, possibly utilising system calls to autohotkey.
