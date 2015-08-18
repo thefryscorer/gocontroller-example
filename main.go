@@ -44,13 +44,13 @@ func main() {
 		{Left: 80, Top: 40, Key: "d", Color: "#56c2d6"},
 		{Left: 70, Top: 60, Key: "s", Color: "#8c54fe"},
 		{Left: 0, Top: 0, Key: "l", Label: "L"},
-		{Left: 90, Top: 0, Key: "r", Label: "R"},
+		{Left: 95, Top: 0, Key: "r", Label: "R"},
 		{Left: 35, Top: 10, Key: "Escape"},
 		{Left: 55, Top: 10, Key: "Return"},
 	}}
 	server := gocontroller.NewServer(layout, gocontroller.DefaultPort)
 	server.Start()
-	fmt.Println("Server started.")
+	fmt.Println("Server started on port: " + gocontroller.DefaultPort)
 	inAgg := server.NewInputAggregator()
 	for {
 		inAgg.Collect()
